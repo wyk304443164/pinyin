@@ -132,9 +132,7 @@ public abstract class DrawView_old2 extends View {
         // 获取拖动事件的发生位置
         float x = event.getX();
         float y = event.getY();
-
         onTouchXY(x, y);
-
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN: // 手按下
                 flag_up = false;
